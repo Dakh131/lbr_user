@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2291,6 +2291,132 @@ chip</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="CT/CN0402">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-0.45" y1="0.2" x2="0.45" y2="0.2" width="0.1016" layer="51"/>
+<wire x1="0.45" y1="0.2" x2="0.45" y2="-0.2" width="0.1016" layer="51"/>
+<wire x1="0.45" y1="-0.2" x2="-0.45" y2="-0.2" width="0.1016" layer="51"/>
+<wire x1="-0.45" y1="-0.2" x2="-0.45" y2="0.2" width="0.1016" layer="51"/>
+<smd name="1" x="-0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-1.016" y="0.635" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="-0.2" x2="-0.2" y2="0.2" layer="51"/>
+<rectangle x1="0.2" y1="-0.2" x2="0.45" y2="0.2" layer="51" rot="R180"/>
+<wire x1="-1.016" y1="0.508" x2="-1.016" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-0.508" x2="1.016" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.127" layer="21"/>
+<wire x1="1.016" y1="0.508" x2="-1.016" y2="0.508" width="0.127" layer="21"/>
+</package>
+<package name="CT/CN0603">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1016" layer="21"/>
+<wire x1="0.75" y1="0.35" x2="0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.75" y1="-0.35" x2="-0.75" y2="0.35" width="0.1016" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="1" layer="1"/>
+<text x="-1.627" y="0.746" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.627" y="-1.619" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-0.35" x2="-0.4" y2="0.35" layer="51"/>
+<rectangle x1="0.4" y1="-0.35" x2="0.75" y2="0.35" layer="51" rot="R180"/>
+<wire x1="-1.651" y1="0.635" x2="-1.651" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-0.635" x2="1.651" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-0.635" x2="1.651" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0.635" x2="-1.651" y2="0.635" width="0.127" layer="21"/>
+</package>
+<package name="CT/CN0805">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-0.95" y1="0.6" x2="0.95" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="0.6" x2="0.95" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="-0.6" x2="-0.95" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="-0.6" x2="-0.95" y2="0.6" width="0.1016" layer="51"/>
+<smd name="1" x="-1.1" y="0" dx="1.2" dy="1.4" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1.2" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.016" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-1.905" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.95" y1="-0.6" x2="-0.4" y2="0.6" layer="51"/>
+<rectangle x1="0.4" y1="-0.6" x2="0.95" y2="0.6" layer="51" rot="R180"/>
+<wire x1="-1.905" y1="0.889" x2="-1.905" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-0.889" x2="1.905" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-0.889" x2="1.905" y2="0.889" width="0.127" layer="21"/>
+<wire x1="1.905" y1="0.889" x2="-1.905" y2="0.889" width="0.127" layer="21"/>
+</package>
+<package name="CT/CN1206">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.1016" layer="51"/>
+<smd name="1" x="-1.65" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.2" dy="1.8" layer="1"/>
+<text x="-2.413" y="1.27" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.413" y="-2.159" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.65" y1="-0.75" x2="-0.95" y2="0.75" layer="51"/>
+<rectangle x1="0.95" y1="-0.75" x2="1.65" y2="0.75" layer="51" rot="R180"/>
+<wire x1="-2.413" y1="1.143" x2="-2.413" y2="-1.143" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="-1.143" x2="2.413" y2="-1.143" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-1.143" x2="2.413" y2="1.143" width="0.127" layer="21"/>
+<wire x1="2.413" y1="1.143" x2="-2.413" y2="1.143" width="0.127" layer="21"/>
+</package>
+<package name="CT/CN1210">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-1.65" y1="1.25" x2="1.65" y2="1.25" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="1.25" x2="1.65" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="-1.25" x2="-1.65" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="-1.65" y1="-1.25" x2="-1.65" y2="1.25" width="0.1016" layer="51"/>
+<smd name="1" x="-1.65" y="0" dx="1.2" dy="2.8" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.2" dy="2.8" layer="1"/>
+<text x="-2.54" y="1.778" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.65" y1="-1.25" x2="-0.95" y2="1.25" layer="51"/>
+<rectangle x1="0.95" y1="-1.25" x2="1.65" y2="1.25" layer="51" rot="R180"/>
+<wire x1="-2.54" y1="1.651" x2="-2.54" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.651" x2="2.54" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.651" x2="2.54" y2="1.651" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.651" x2="-2.54" y2="1.651" width="0.127" layer="21"/>
+</package>
+<package name="CT/CN1812">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-2.35" y1="1.55" x2="2.35" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.35" y1="1.55" x2="2.35" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.35" y1="-1.55" x2="-2.35" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.35" y1="-1.55" x2="-2.35" y2="1.55" width="0.1016" layer="51"/>
+<smd name="1" x="-2.25" y="0" dx="1.5" dy="3.6" layer="1"/>
+<smd name="2" x="2.25" y="0" dx="1.5" dy="3.6" layer="1"/>
+<text x="-3.175" y="2.159" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.921" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.35" y1="-1.55" x2="-1.4" y2="1.55" layer="51"/>
+<rectangle x1="1.4" y1="-1.55" x2="2.35" y2="1.55" layer="51" rot="R180"/>
+<wire x1="-3.175" y1="2.032" x2="-3.175" y2="-2.032" width="0.1016" layer="51"/>
+<wire x1="-3.175" y1="-2.032" x2="3.175" y2="-2.032" width="0.1016" layer="51"/>
+<wire x1="3.175" y1="-2.032" x2="3.175" y2="2.032" width="0.1016" layer="51"/>
+<wire x1="3.175" y1="2.032" x2="-3.175" y2="2.032" width="0.1016" layer="51"/>
+</package>
+<package name="CT/CN2220">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-2.95" y1="2.45" x2="2.95" y2="2.45" width="0.1016" layer="51"/>
+<wire x1="2.95" y1="2.45" x2="2.95" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="2.95" y1="-2.45" x2="-2.95" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="-2.95" y1="-2.45" x2="-2.95" y2="2.45" width="0.1016" layer="51"/>
+<smd name="1" x="-2.85" y="0" dx="1.5" dy="5.5" layer="1"/>
+<smd name="2" x="2.85" y="0" dx="1.5" dy="5.5" layer="1"/>
+<text x="-3.81" y="3.175" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-4.064" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.95" y1="-2.45" x2="-2.01" y2="2.44" layer="51"/>
+<rectangle x1="2.01" y1="-2.44" x2="2.95" y2="2.45" layer="51" rot="R180"/>
+<wire x1="-3.81" y1="3.048" x2="-3.81" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-3.048" x2="3.81" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.048" x2="3.81" y2="3.048" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="-3.81" y2="3.048" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VDR">
@@ -3803,6 +3929,69 @@ chip</description>
 </technologies>
 </device>
 <device name="-0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN0402" package="CT/CN0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN0603" package="CT/CN0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN0805" package="CT/CN0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN1206" package="CT/CN1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN1210" package="CT/CN1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN1812" package="CT/CN1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CN2220" package="CT/CN2220">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
